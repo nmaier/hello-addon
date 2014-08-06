@@ -1,0 +1,9 @@
+content hello-addon content/
+
+locale hello-addon en-US locale/en-US/
+locale hello-addon en-GB locale/en-GB/
+locale hello-addon fr-FR locale/fr-FR/
+locale hello-addon de-DE locale/de-DE/
+locale hello-addon de-AT locale/de-AT/
+
+overlay chrome://browser/content/browser.xul chrome://hello-addon/content/overlay.xul

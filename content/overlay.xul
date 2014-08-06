@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE overlay SYSTEM "chrome://hello-addon/locale/overlay.dtd">
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="text/javascript" src="overlay.js"/>
+  <stringbundleset id="stringbundleset">
+    <stringbundle id="hello-addon-strings"
+      src="chrome://hello-addon/locale/strings.properties"/>
+  </stringbundleset>
+  <popup id="contentAreaContextMenu">
+    <menuitem label="&item.label;"
+      class="menuitem-iconic"
+      image="chrome://hello-addon/locale/flag.png"
+      oncommand="hello_addon.say_hello();"/>
+  </popup>
+</overlay>
